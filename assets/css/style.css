@@ -1,0 +1,91 @@
+body {
+	margin: 0 auto 0 auto;
+	width: 1400px;
+	clear: both;
+	background-color: black;
+	font-family: Tolkien, "Book Antiqua", "Century Gothic";
+	color: white;
+}
+
+@font-face { 
+	font-family: Tolkien; src: url('Tolkien.ttf');
+} 
+
+div#contentbox {
+	background-color: black;
+	height: 800px;
+	margin-top: 50px;
+	border-style: outset;
+}
+
+div#titlebox {
+	margin-top: 50px;
+	text-align: center;
+}
+
+div#intropage {
+	margin: 0 auto;
+}
+
+img#gate {
+	margin-left: 35px;
+}
+
+div#intro {
+	text-align: center;
+}
+
+img#treedecorA {
+	float: left;
+	margin-left: 50px;
+}
+
+img#treedecorB {
+	float: right;
+	margin-right: 50px;
+}
+
+div#timerbox {
+	margin-top: 50px;
+	text-align: center;
+	display: none;
+}
+
+div#firstQuestion, #secondQuestion, #thirdQuestion, #fourthQuestion, #fifthQuestion, #sixthQuestion, #seventhQuestion, #eighthQuestion, #ninthQuestion {
+	margin-top: 70px; 
+	text-align: center;
+	font-size: 18pt;
+}
+
+div#questionbox, #questionbox2, #questionbox3, #questionbox4, #questionbox5, #questionbox6, #questionbox7, #questionbox8, #resultbox {
+	font-size: 25pt;
+}
+
+div #firstQuestion, #secondQuestion, #thirdQuestion, #fourthQuestion, #fifthQuestion, #sixthQuestion, #seventhQuestion, #eighthQuestion, #ninthQuestion {
+	display: none;
+
+}
+
+div#responsebox {
+	margin: 80px;
+}
+
+div#A, #B, #C, #D, #A2, #B2, #C2, #D2, #A3, #B3, #C3, #D3, #A4, #B4, #C4, #D4, #A5, #B5, #C5, #D5, #A6, #B6, #C6, #D6, #A7, #B7, #C7, #D7, #A8, #B8, #C8, #D8 {
+	margin: 40px auto 40px auto;
+	width: 500px;
+	border: ridge;
+}
+
+div#solutionbox {
+	text-align: center;
+}
+
+div#images {
+	text-align: center;
+}
+
+img#bombadil, #radagast, #silvan, #melkor, #iluvatar, #lewis, #anduril, #balrog {
+	display: none;	
+	margin-top: 25px;
+}
+
