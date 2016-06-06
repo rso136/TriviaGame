@@ -8,7 +8,8 @@ body {
 }
 
 @font-face { 
-	font-family: Tolkien; src: url('Tolkien.ttf');
+	font-family: Tolkien; 
+	src: url(../fonts/tolkien.ttf);
 } 
 
 div#contentbox {
